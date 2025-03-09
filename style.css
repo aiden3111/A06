@@ -17,12 +17,39 @@ main {
     box-shadow: 0px 0px 10px #ccc;
 }
 
-h1, h2, h3 {
+h1{
     color: #333;
 }
 
+h2 {
+    font-size: 170%;
+    color: var(--global-color-1);
+    text-indent: 30px;
+}
+
+h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px #800000;
+}
+
+.hover-effect:hover {
+    font-style: italic;
+}
+
+footer p {
+    text-align: center;
+}
+
+:root {
+    --global-color-1: #800000;
 }
